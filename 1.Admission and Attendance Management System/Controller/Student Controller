@@ -1,0 +1,44 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
+using Microsoft.AspNetCore.Mvc;
+
+// For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+
+namespace coaching.Controllers
+{
+    public class StudentController : Controller
+    {
+        // GET: /<controller>/
+        public IActionResult student_home()
+        {
+            return View();
+        }
+        public IActionResult student_login()
+        {
+            return View();
+        }
+
+        public IActionResult stu_atten()
+        {
+            return View();
+        }
+        
+
+        public IActionResult profile()
+        {
+            return View();
+        }
+        public IActionResult routine()
+        {
+            return View();
+        }
+        public IActionResult stu_profile()
+        {
+            return View();
+        }
+
+
+    }
+}
