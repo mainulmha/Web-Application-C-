@@ -1,0 +1,38 @@
+@{
+    Layout = "Admin_layout";
+} 
+<center><h1>Admin Profile</h1></center><hr />
+<div class="container-fluid">
+    <div class="row">
+
+        <div class="col-lg-3 col-md-4 col-sm-6">
+            <div class="imgcontainer">
+                <a href="~/images/teacher.jpg" target="_blank">
+                    <img class="img-responsive" src="~/images/teacher.jpg" alt=".......">
+                </a>
+                <hr />
+
+            </div>
+
+        </div><!------- Image section------->
+
+        <div class="col-lg-6 col-md-4 col-sm-4">
+
+            Name: Md. Anwarul Kabir<hr />
+            
+            Student ID:20171<hr />
+            
+            Blood: O+<hr />
+            Date of birth: 14-11-1993<hr />
+            Mobile: 8801742503080<hr />
+            Present Address: bhadurirchar , Word- 03 , Post Code -1960 , P/S - Bhuapur ,
+            Thana- Bhuapur,Dis- Tangail , Bangladesh<hr />
+
+            Permanent Address: vill:Auchpara PO:NisatNagor Dist:Gazipur , Word- 54 , Post Code -1711 ,
+            P/S - Nishat Nagar ,Thana- Monnunagar,Dis- Gazipur , Bangladesh<hr />
+           
+        </div>
+
+
+    </div>
+</div>
