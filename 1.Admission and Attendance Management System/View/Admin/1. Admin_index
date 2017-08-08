@@ -1,0 +1,41 @@
+
+
+<br/>
+<diconcov class="container-fluide">
+    <div class="col-md-4"></div>
+    <div class="col-md-4">
+        <div class="well">
+            <!-------Form start------>
+
+
+            <form action="" class="form-block">
+                <center>
+                    <div class="imgcontainer">
+                        <img src="~/images/admin_image.png" />
+                    </div>	<!-------Form Image------->
+                </center>
+                <div class="form-group">
+                    <label for="name">Admin ID</label>
+                    <input type="text" class="form-control" id="name" placeholder="Admin ID" />
+                </div>
+
+                <div class="form-group">
+                    <label for="password">Password</label>
+                    <input type="password" class="form-control" id="password" placeholder="Password" />
+                </div>
+
+                <button type="button" class="btn btn-danger btn-right">Cancel</button>
+                <!---<button type="submit" class="btn btn-success btn-right btn-lg btn-right">Login</button>---->
+
+                <a href="Admin_Index" class="btn btn-success btn-right" role="button" value="Input">Login</a>
+
+                <br />
+                <hr />
+                <center><span class="psw">Forgot <a href="#">password?</a></span></center>
+
+            </form>
+
+        </div>
+    </div>
+
+</diconcov>
