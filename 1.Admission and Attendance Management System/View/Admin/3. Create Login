@@ -1,0 +1,43 @@
+
+@{
+    Layout = "Admin_layout";
+}
+
+<br />
+<diconcov class="container-fluide">
+    <div class="col-md-4"></div>
+    @{
+        Layout = "Admin_layout";
+    } 
+    <div class="col-md-4">
+        <div class="well">
+            <!-------Form start------>
+
+
+            <form action="" class="form-block">
+                <center>
+	<!-------Form Image------->
+                </center>
+                <div class="form-group">
+                    <label for="name"> ID</label>
+                    <input type="text" class="form-control" id="name" placeholder=" ID" />
+                </div>
+
+                <div class="form-group">
+                    <label for="password">Password</label>
+                    <input type="password" class="form-control" id="password" placeholder="Password" />
+                </div>
+
+                <button type="button" class="btn-lg btn btn-danger btn-right">Cancel</button>
+                <!---<button type="submit" class="btn btn-success btn-right btn-lg btn-right">Login</button>---->
+
+                <a href="#" class="btn btn-success btn-right btn-lg btn-right" role="button" value="Input">Login</a>
+
+                <br />
+                <hr />
+            </form>
+
+        </div>
+    </div>
+
+</diconcov>
